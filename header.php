@@ -7,13 +7,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="title" content="ISW | CERT MANAGER">
     <meta name="author" content="Godstime Chisom Jude">
-    <meta name="description" content="Dashboad for SSL cert management built with AdminLTE bootstrap template">
+    <meta name="description" content="Dashboad for SSL cert management built with AdminLTE">
     <meta name="keywords" content=""><!--end::Primary Meta Tags--><!--begin::Fonts-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fontsource/source-sans-3@5.0.12/index.css" integrity="sha256-tXJfXfp6Ewt1ilPzLDtQnJV4hclT9XuaZUKyUvmyr+Q=" crossorigin="anonymous"><!--end::Fonts--><!--begin::Third Party Plugin(OverlayScrollbars)-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/overlayscrollbars@2.3.0/styles/overlayscrollbars.min.css" integrity="sha256-dSokZseQNT08wYEWiz5iLI8QPlKxG+TswNRD8k35cpg=" crossorigin="anonymous"><!--end::Third Party Plugin(OverlayScrollbars)--><!--begin::Third Party Plugin(Bootstrap Icons)-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.min.css" integrity="sha256-Qsx5lrStHZyR9REqhUF8iQt73X06c8LGIUPzpOhwRrI=" crossorigin="anonymous"><!--end::Third Party Plugin(Bootstrap Icons)--><!--begin::Required Plugin(AdminLTE)-->
     <link rel="stylesheet" href="css/adminlte.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/apexcharts@3.37.1/dist/apexcharts.css" integrity="sha256-4MX+61mt9NVvvuPjUWdUdyfZfxSB1/Rf9WtqRHgG5S0=" crossorigin="anonymous">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <!-- Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
 </head>
 
 <body class="layout-fixed sidebar-expand-lg bg-body-tertiary"> <!--begin::App Wrapper-->
@@ -64,9 +75,10 @@
 
                         <li class="nav-header">CERT MGT</li>
 
-                        <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-upload"></i>
+                        <li class="nav-item"> <a href="upload.php" class="nav-link"> <i class="nav-icon bi bi-upload"></i>
                             <p>Upload Cert</p>
                         </a> </li>
+                        
                         <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-stack"></i>
                             <p>View All Certs</p>
                         </a> </li>
@@ -79,6 +91,10 @@
                                 </a> </li>
                             <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-arrow-right-circle"></i>
                                     <p>Active Cert</p>
+                                </a> </li>
+
+                                <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-arrow-right-circle"></i>
+                                    <p>Send Out Reminders</p>
                                 </a> </li>
                         </ul>
                     
