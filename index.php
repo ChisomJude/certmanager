@@ -1,5 +1,6 @@
 <?php 
 include('dbcon.php');
+include('error_handler.php');
 include('header.php');
 ?>
 

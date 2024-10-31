@@ -85,19 +85,21 @@
                         <li class="nav-item"> <a href="#" class="nav-link"><i class="nav-icon bi bi-speedometer"></i>
                             <p>Cert Status <i class="nav-arrow bi bi-chevron-right"></i></p>
                         </a> 
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-arrow-right-circle"></i>
-                                    <p>Expiring Cert</p>
-                                </a> </li>
-                            <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-arrow-right-circle"></i>
-                                    <p>Active Cert</p>
-                                </a> </li>
-
+                            <ul class="nav nav-treeview">
                                 <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-arrow-right-circle"></i>
-                                    <p>Send Out Reminders</p>
-                                </a> </li>
-                        </ul>
-                    
+                                        <p>Expiring Cert</p>
+                                    </a> </li>
+                                <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-arrow-right-circle"></i>
+                                        <p>Active Cert</p>
+                                    </a> </li>
+                                    
+                                <li class="nav-item"> <a href="esbcert.php" class="nav-link"> <i class="nav-icon bi bi-arrow-right-circle"></i>
+                                        <p>ESB Keystore Certs </p>
+                                    </a> </li>
+                                <li class="nav-item"> <a href="#" class="nav-link"> <i class="nav-icon bi bi-arrow-right-circle"></i>
+                                        <p>Send Out Reminders</p>
+                                    </a> </li>
+                            </ul>
                         </li>
                        
                         <li class="nav-header">USER </li>

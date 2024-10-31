@@ -2,3 +2,5 @@
 *.zip
 *.crt
 *.key
+*.keystore
+*.log

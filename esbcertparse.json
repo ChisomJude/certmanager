@@ -1,0 +1,66 @@
+[
+    {
+        "alias": "airtimereport-2024-08-27-12-07",
+        "creation_date": "27 Aug 2024",
+        "type": "trustedCertEntry",
+        "domain": "airtimereport.com",
+        "valid_from": "Tue Jul 16 21:56:13 WAT 2024 until: Mon Oct 14 21:56:12 WAT 2024",
+        "expiration_date": "2024-10-14 21:56:12"
+    },
+    {
+        "alias": "airtimereport-2024-08-27-14-33",
+        "creation_date": "27 Aug 2024",
+        "type": "trustedCertEntry",
+        "domain": "airtimereport.com",
+        "valid_from": "Tue Jul 16 21:56:13 WAT 2024 until: Mon Oct 14 21:56:12 WAT 2024",
+        "expiration_date": "2024-10-14 21:56:12"
+    },
+    {
+        "alias": "k2_isw_la",
+        "creation_date": "21 Aug 2024",
+        "type": "trustedCertEntry",
+        "domain": "k9.isw.la",
+        "valid_from": "Tue Apr 02 01:00:00 WAT 2024 until: Thu Apr 17 00:59:59 WAT 2025",
+        "expiration_date": "2025-04-17 00:59:59"
+    },
+    {
+        "alias": "mutual-api.turnkeyafrica.com (r11)",
+        "creation_date": "8 Aug 2024",
+        "type": "trustedCertEntry",
+        "domain": "mutual-api.turnkeyafrica.com",
+        "valid_from": "Sun Jul 21 12:06:12 WAT 2024 until: Sat Oct 19 12:06:11 WAT 2024",
+        "expiration_date": "2024-10-19 12:06:11"
+    },
+    {
+        "alias": "quicktellerbusiness_com-2024-08-22-14-54",
+        "creation_date": "22 Aug 2024",
+        "type": "trustedCertEntry",
+        "domain": "quicktellerbusiness.com",
+        "valid_from": "Tue Nov 21 01:00:00 WAT 2023 until: Wed Dec 04 00:59:59 WAT 2024",
+        "expiration_date": "2024-12-04 00:59:59"
+    },
+    {
+        "alias": "root-2024-08-27-15-07",
+        "creation_date": "27 Aug 2024",
+        "type": "trustedCertEntry",
+        "domain": "Entrust Root Certification Authority - G2",
+        "valid_from": "Tue Jul 07 18:25:54 WAT 2009 until: Sat Dec 07 18:55:54 WAT 2030",
+        "expiration_date": "2030-12-07 18:55:54"
+    },
+    {
+        "alias": "ss_interswitch",
+        "creation_date": "21 Aug 2024",
+        "type": "trustedCertEntry",
+        "domain": "ss.interswitch.com",
+        "valid_from": "Mon Nov 20 01:00:00 WAT 2023 until: Wed Dec 04 00:59:59 WAT 2024",
+        "expiration_date": "2024-12-04 00:59:59"
+    },
+    {
+        "alias": "tempalias",
+        "creation_date": "8 Aug 2024",
+        "type": "PrivateKeyEntry",
+        "domain": "Godstime Jude",
+        "valid_from": "Thu Aug 08 13:48:10 WAT 2024 until: Wed Nov 06 13:48:10 WAT 2024",
+        "expiration_date": "2024-11-06 13:48:10"
+    }
+]
